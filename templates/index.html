@@ -12,7 +12,11 @@
     <body id = 'bodys'>
     <style>
         
-        
+        h3{
+            position: absolute;
+            top: 1035%;
+            left: 24%;
+        }
         div{
             
             text-align: center;
@@ -77,6 +81,7 @@
 
         }
         @media only screen and (max-width: 1200px){
+            
             .icons{
            
                 text-align: center;
@@ -119,6 +124,12 @@
             }
         }
         @media only screen and (max-width: 1500px){
+            h3{
+                position: absolute;
+                top: 535%;
+                left: -10%;
+                transform: rotate(90deg);
+            }
             .icons{
            
                 text-align: center;
@@ -301,6 +312,12 @@
     
 
         @media only screen and (max-width: 800px){
+            h3{
+                position: absolute;
+                top: 535%;
+                left: -30%;
+                transform: rotate(90deg);
+            }
             .icons{
            
                 text-align: center;
@@ -332,6 +349,12 @@
         
 
         @media only screen and (max-width: 700px){
+            h3{
+                position: absolute;
+                top: 535%;
+                left: -30%;
+                transform: rotate(90deg);
+            }
             .icons{
            
                 text-align: center;
@@ -372,6 +395,12 @@
 
         }
         @media only screen and (max-width: 600px){
+            h3{
+                position: absolute;
+                top: 535%;
+                left: -30%;
+                transform: rotate(90deg);
+            }
             .icons{
            
                 text-align: center;
@@ -408,14 +437,24 @@
                 text-align: center;
             }
         }
+
+        .bsa{
+            background-color: #FF3F36;
+            color: white;
+        }
+    .bsa:hover{
+        background-color: #FFCCB;
+        color: white;
+         
+    } 
     </style>
     <h2>Vehicle Price Predictor For 2022</h2>
     <div class='icons'>
-        <a href = ""><i class="fa-brands fa-github fa-beat-fade" style = '--fa-animation-duration: 10s; --fa-fade-opacity: 0.1;'></i></a>
-        <a href = ""><i class="fa-brands fa-linkedin-in fa-beat-fade" style = '--fa-animation-duration: 10s; --fa-fade-opacity: 0.1;'></i></a>
-        <a href = ""><i class="fa-brands fa-kaggle fa-beat-fade" style = '--fa-animation-duration: 10s; --fa-fade-opacity: 0.1;' ></i></a>
-        <a href = ""><i class="fa-brands fa-twitter fa-beat-fade" style = '--fa-animation-duration: 10s; --fa-fade-opacity: 0.1;'></i></a>
-        <a href = ""><i class="fa-brands fa-instagram fa-beat-fade" style = '--fa-animation-duration: 10s; --fa-fade-opacity: 0.1;'></i></a>
+        <a style = 'color:#FF3F36;' href = "https://github.com/TusharNautiyal-web/Car_Price_Prediction_ML"><i class="fa-brands fa-github fa-beat-fade" style = '--fa-animation-duration: 8s; --fa-fade-opacity: 0.1;'></i></a>
+        <a style = 'color:#FF3F36;' href = "https://www.linkedin.com/in/tusharnautiyal/"><i class="fa-brands fa-linkedin-in fa-beat-fade" style = '--fa-animation-duration: 8s; --fa-fade-opacity: 0.1;'></i></a>
+        <a style = 'color:#FF3F36;' href = "https://www.kaggle.com/code/tusharnautiyalweb/vehicle-dataset-eda-fe-fs-model-deployment"><i class="fa-brands fa-kaggle fa-beat-fade" style = '--fa-animation-duration: 8s; --fa-fade-opacity: 0.1;' ></i></a>
+        <a style = 'color:#FF3F36;' href = "https://twitter.com/Tushar09235016"><i class="fa-brands fa-twitter fa-beat-fade" style = '--fa-animation-duration: 8s; --fa-fade-opacity: 0.1;'></i></a>
+        <a style = 'color:#FF3F36;' href = "https://www.instagram.com/tusharnautiyal/"><i class="fa-brands fa-instagram fa-beat-fade" style = '--fa-animation-duration: 8s; --fa-fade-opacity: 0.1;'></i></a>
     </div>
     <div class = 'container' style="color: #403F3F">
         <div class = "section">
@@ -437,14 +476,15 @@
                 <option value="Mannual">Manual Car</option>
                 <option value="Automatic">Automatic Car</option>
             </select>
-            <br><br><button class="btn btn-warning" id="sub" type="submit ">Calculate Price</button>
+            <br><br><button class="btn bsa" id="sub" type="submit ">Calculate Sell Price</button>
             <br>
         </div>
-        </form>
+        <br><br><h3>{{ prediction_text }}<h3>   
+    </form>
 
 
 
-        <br><br><h3>{{ prediction_text }}<h3>
+        
            
         </div>
        
