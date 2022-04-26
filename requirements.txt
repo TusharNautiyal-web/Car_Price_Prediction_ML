@@ -75,7 +75,7 @@ ipywidgets==7.7.0
 isort==4.3.21
 itsdangerous==2.1.1
 jedi==0.18.1
-Jinja2==3.0.3
+Jinja2>=2.11.3
 joblib==1.1.0
 jsonify==0.5
 jsonschema==4.4.0
@@ -92,7 +92,7 @@ nbclient==0.5.13
 nbconvert==6.4.4
 nbformat==5.2.0
 nest-asyncio==1.5.4
-numpy==1.22.1
+numpy==1.21.0
 opencv-python==4.5.5.62
 openpyxl==3.0.9
 packaging==21.3
