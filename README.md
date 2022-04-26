@@ -9,3 +9,6 @@ I used random forest reggresor in this particular project of machine learning yo
 <p>Hope You liked the project.<p>
 <p>This Project Is Created By Tushar Nautiyal</p>
 Thanks for Taking Time and Reading This document.
+<p>Here is the short video of how it works as i was not able to deploy on heroku because of security issues in github.</p>
+https://user-images.githubusercontent.com/74553737/165293195-0bfef18a-1e7b-48a1-ac51-843bef0165db.mp4
+
