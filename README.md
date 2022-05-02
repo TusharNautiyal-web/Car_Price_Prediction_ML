@@ -20,4 +20,4 @@ I used random forest reggresor in this particular project of machine learning yo
 Thanks for Taking Time and Reading This document.
 <p>Here is the short video of how it works as i was not able to deploy on heroku because of security issues in github.</p>
 https://user-images.githubusercontent.com/74553737/165293195-0bfef18a-1e7b-48a1-ac51-843bef0165db.mp4
-![](https://user-images.githubusercontent.com/74553737/166220677-1e986c69-c4a8-4d0c-a36b-57ce90d784a5.jpg)
+<img src = "https://user-images.githubusercontent.com/74553737/166220677-1e986c69-c4a8-4d0c-a36b-57ce90d784a5.jpg"></img>
